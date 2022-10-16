@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.box {
+  margin: 1rem;
+  padding: 5rem;
+  border: 4px #000 solid;
+  padding: 1rem;
+  background: red;
+}
+
+label.checkbox {
+  cursor: pointer;
+}
+
+.text {
+  /* extrinsic sizing */
+  width: 100px;
+  padding: 1rem;
+  font-size: 4rem;
+  font-weight: 500;
+  border: 5px solid #000;
+}
+
+/* intrinsic sizing */
+.text[data-sizing="intrinsic"] {
+  /* width: min-content; */
+  width: max-content;
+  height: max-content;
+}
