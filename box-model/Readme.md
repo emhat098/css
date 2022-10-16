@@ -1,15 +1,5 @@
 # Box model
 
-<style>
-  .note {
-    color: red;
-  }
-
-  figcaption {
-    text-align: center;
-  }
-</style>
-
 > *Everything displayed by CSS is a box.*
 > *The box model is a core foundation of CSS.*
 - Understanding how it works?
@@ -60,7 +50,7 @@ Try with the paragraph element.
 ## The areas of the box model.
 
 When using tab to the **computed**. We see the distinct box model areas. Every box model has a specific job. Look at the image below:
-<figure>
+<figure align="center">
   <img src="./assets/the%20areas%20of%20the%20box%20model.png" alt="The areas of box model" />
   <figcaption>The areas of box model</figcaption>
 </figure>
@@ -112,7 +102,7 @@ span {
 
 \- p element with default value from user agent browser.
 
-<figure>
+<figure align="center">
   <img src="./assets/user%20agent%20default%20value%20when%20browser%20is%20no%20CSS%20define.png" alt="p element user agent stylesheet when browser is not CSS defined." />
   <figcaption>p element user agent stylesheet when browser is not CSS defined.</figcaption>
 </figure>
