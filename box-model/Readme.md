@@ -22,7 +22,7 @@ Try with the paragraph element.
 }
 ```
 
-\- The with should be 143px without break down the box. If less than it. The parapahg is appears out site the box.
+\- The with should be 143px without break down the box. If less than it. The paragraph is appears out site the box.
 
 > *Everything must be display by CSS is box.*
 
@@ -116,3 +116,5 @@ The CSS applies the **width** to the **border-box** instead the content box.
 
 ## Summary
 The CSS Box Model is the common, we should understand it before we deep dive to learn CSS.
+
+## [Example](https://codepen.io/emhat098/pen/abGrBGa)
